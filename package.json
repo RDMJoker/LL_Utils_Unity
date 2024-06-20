@@ -1,5 +1,8 @@
 {
-  "name" : "com.LLUtils.Unity",
+  "name" : "com.unity.utils",
+  "author": {
+    "name": "Lukas Lischke"
+  },
   "version" : "1.0.1",
   "displayName" : "LL_Unity_Utils"
 }
