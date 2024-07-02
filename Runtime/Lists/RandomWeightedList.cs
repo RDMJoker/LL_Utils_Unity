@@ -57,7 +57,7 @@ namespace LL_Unity_Utils.Lists
             return output;
         }
 
-        private void SortList()
+        public void SortList()
         {
             weightedList.Sort((a, b) => a.Weight.CompareTo(b.Weight));
         }
