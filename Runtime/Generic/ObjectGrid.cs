@@ -47,6 +47,15 @@ namespace LL_Unity_Utils.Generic
             gridArray = new TObject[Width, Height];
         }
 
+        public ObjectGrid(int _width, int _height, float _cellSize, Vector3 _staringPos = new Vector3(0, 0, 0))
+        {
+            Width = _width;
+            Height = _height;
+            cellSize = _cellSize;
+            startingPos = _startingPos;
+            gridArray = new TObject[Width, Height];
+        }
+
         public int Height { get; }
 
         public int Width { get; }
